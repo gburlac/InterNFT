@@ -30,7 +30,7 @@ public class Properties_reader {
         System.out.println("Working Directory = " +
                 System.getProperty("user.dir"));
 
-        String propFileName = "src/main/resources/nft_sql_db.properies";
+        String propFileName = "src/main/resources/nft_sql_db.properties";
         try {
             inputStream = new FileInputStream(propFileName);
 
