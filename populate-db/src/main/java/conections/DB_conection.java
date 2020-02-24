@@ -17,7 +17,7 @@ public class DB_conection {
 
     private void driverInitializing() {
         try {
-            Class.forName("oracle.jdbc.driver.OracleDriver");
+            Class.forName("com.sqlserver.jdbc.Driver");
         } catch (Exception e) {
             System.out.println("SQLServerDriver not init");
             Logger.error("Exeption on SQLServerDriver initialization.", e);
